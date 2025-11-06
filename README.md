@@ -21,3 +21,10 @@ This class represents the entire linked list and provides various methods to man
 | **contains(value)** | Returns `true` if `value` exists in the list, `false` otherwise              |
 | **find(value)**     | Returns the **index** of the node containing `value`, or `null` if not found |
 | **toString()**      | Prints the list in the format `( value ) -> ( value ) -> null`               |
+
+
+### Extra Credit Methods
+| Method                     | Description                                                        |
+| -------------------------- | ------------------------------------------------------------------ |
+| **insertAt(value, index)** | Inserts a new node with the given `value` at the specified `index` |
+| **removeAt(index)**        | Removes the node at the specified `index`                          |
