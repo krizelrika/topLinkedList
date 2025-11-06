@@ -28,3 +28,16 @@ This class represents the entire linked list and provides various methods to man
 | -------------------------- | ------------------------------------------------------------------ |
 | **insertAt(value, index)** | Inserts a new node with the given `value` at the specified `index` |
 | **removeAt(index)**        | Removes the node at the specified `index`                          |
+
+## 🧠 Key Concepts Practiced
+- Class creation and modular export/import
+- Working with linked data structures
+- Managing node references and memory links
+- Traversing and manipulating lists
+- Handling edge cases (empty list, invalid index)
+- Applying Odin Project data structure fundamentals
+
+## 🪄 Developer Notes
+
+Built by a mid-level developer learning from The Odin Project — practicing fundamental data structures through hands-on JavaScript implementation.
+Happy coding! 👩🏻‍💻✨
