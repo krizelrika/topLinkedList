@@ -9,5 +9,15 @@ You’ll build your own linked list with `Node` and `LinkedList` classes, and im
 This class represents the entire linked list and provides various methods to manipulate nodes.
 
 ### Core Methods
-| Method | Description |
-| :--- | ----: |
+| Method              | Description                                                                  |
+| ------------------- | ---------------------------------------------------------------------------- |
+| **append(value)**   | Adds a new node containing `value` to the end of the list                    |
+| **prepend(value)**  | Adds a new node containing `value` to the start of the list                  |
+| **size()**          | Returns the total number of nodes in the list                                |
+| **head()**          | Returns the **first node** in the list                                       |
+| **tail()**          | Returns the **last node** in the list                                        |
+| **at(index)**       | Returns the **node at the given index**                                      |
+| **pop()**           | Removes the last element from the list                                       |
+| **contains(value)** | Returns `true` if `value` exists in the list, `false` otherwise              |
+| **find(value)**     | Returns the **index** of the node containing `value`, or `null` if not found |
+| **toString()**      | Prints the list in the format `( value ) -> ( value ) -> null`               |
